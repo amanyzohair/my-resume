@@ -1,0 +1,48 @@
+.experience{
+    background-color: rgba(15,40,63,0.5);
+}
+.header{
+    position: relative;
+    font-size: 2.5em;
+    color: #eee;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #222;
+  }
+  .sec-head::before{
+    position: absolute;
+    content: "E";
+    font-size: 7em;
+    font-weight: bold;
+    color: rgba(255,255,255, 0.2);
+    left: 47%;
+    right: 0;
+  }
+  .exp-col{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 2px 2px 3px #0C2032;
+    transition: 0.3s ease;
+  }
+  .exp-col:hover{
+    box-shadow: 4px 4px 3px #0C2032;
+    transform: translateY(-10px);
+  }
+  .exp-col h2{
+    color: #bbb;
+    text-shadow: 2px 2px 3px #222;
+  }
+  .exp-col i{
+    color: #0F283F;
+  }
+  .city h3{
+    color: #0C2032;
+    font-weight: 500;
+  }
+  .job-description{
+    color: #aaa;
+  }
+  .vol{
+    color: #0C2032 !important; 
+    font-weight: 500;
+    text-shadow: 1px 1px 3px #555;
+  }

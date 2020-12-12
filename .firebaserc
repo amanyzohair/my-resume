@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "amany-zohair": {
+      "hosting": {
+        "amany-zohair": [
+          "amany-zohair"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "amany-zohair"
+  }
+}

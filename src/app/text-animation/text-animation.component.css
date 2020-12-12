@@ -1,0 +1,82 @@
+.main-header-wrapper{
+    height: 1.6em;
+    width: auto;
+    overflow: hidden;
+}
+.main-header-wrapper ul li h2{
+    color: #0F283F;
+    height: 1.5em;
+    animation-name: wrapper;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes wrapper{
+    0%{
+        transform: translateY(1.8em);
+    }
+    14.286%{
+        transform: translateY(0em);
+    }
+    28.571%{
+        transform: translateY(0em);
+    }
+    42.857%{
+        transform: translateY(-1.9em);
+    }
+    57.143%{
+        transform: translateY(-1.9em);
+    }
+    71.429%{
+        transform: translateY(-3.8em);
+    }
+    85.715%{
+        transform: translateY(-3.8em);
+    }
+    100%{
+        transform: translateY(-5.2em);
+    }
+}
+h2 {
+    font-size: 1.5em;
+    color: #ddd;
+    text-shadow: 2.5px 2.5px 3px #0F283F;
+}
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.1em;
+        color: #ddd;
+        text-shadow: 2.5px 2.5px 3px #0F283F;
+    }
+    .main-header-wrapper ul li h2{
+        color: #0F283F;
+        height: 1.1em;
+    }
+    @keyframes wrapper{
+        0%{
+            transform: translateY(1.5em);
+        }
+        14.286%{
+            transform: translateY(0em);
+        }
+        28.571%{
+            transform: translateY(0em);
+        }
+        42.857%{
+            transform: translateY(-1.6em);
+        }
+        57.143%{
+            transform: translateY(-1.6em);
+        }
+        71.429%{
+            transform: translateY(-3.2em);
+        }
+        85.715%{
+            transform: translateY(-3.2em);
+        }
+        100%{
+            transform: translateY(-4.8em);
+        }
+    }
+    
+  }

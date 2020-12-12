@@ -1,0 +1,15 @@
+.main-portfolio{
+    height: 50vh;
+}
+
+::ng-deep .tab-label{
+    /* min-width: 0% !important; */
+    color: #eee !important;
+}
+::ng-deep .tab-label, ::ng-deep .tab-label-content{
+    min-width: 0% !important;
+    color: #eee !important;
+}
+::ng-deep .mat-tab-label{
+    width:  20px !important;
+}

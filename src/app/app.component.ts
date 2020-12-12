@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'amany-zohair';
+  // currentSection = 'home';
+
+  // onSectionChange(section: string) {
+  //   this.currentSection = section;
+  //   document.querySelector('#' + section)
+  // }
+
+  // scrollTo(section) {
+  //   document.querySelector('#' + section).scrollIntoView({behavior: "smooth"});
+  //   // this.currentSection = section;
+  //   this.currentSection = section;
+  // }
 }

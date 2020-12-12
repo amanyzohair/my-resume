@@ -1,0 +1,84 @@
+.contact-container{
+    background-color: rgba(15,40,63,0.6);
+}
+.sec-head::before{
+    position: absolute;
+    content: "C";
+    font-size: 7em;
+    font-weight: bold;
+    color: rgba(255,255,255, 0.15);
+    left: 0;
+    right: 0;
+}
+.header{
+    position: relative;
+    font-size: 2.5em;
+    color: #eee;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #222;
+  }
+i{
+	color: #35CEF5;
+}
+h4{
+	color: #bbb;
+}
+
+  .form-cont {
+      width: 70%;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+    }
+  mat-label {
+      color: #ccc;
+      font-size: 15px;
+    }
+    /* Change label color on focused */
+  ::ng-deep .mat-form-field.mat-focused mat-label {
+      color: #35CEF5 !important;
+    }  
+  ::ng-deep .mat-form-field input{
+      color: #bbb !important;
+    }  
+  ::ng-deep.mat-form-field-underline{
+      background-color: #35CEF5 !important;
+    }
+    /* underline border color on focused */
+  ::ng-deep .mat-focused .mat-form-field-underline .mat-form-field-ripple{
+      background-color: #eee !important;
+    }
+    mat-form-field input{
+        color: #ccc;
+    }
+    mat-icon{
+      color: #eee;
+      transform: scale(1.5);
+    }
+  .error{
+    font-size: 13px;
+    color: #CA0000;
+  }
+  .btn-message{
+    border: 1px solid #35CEF5;
+    color: #bbb !important;
+    font-weight: 500;
+  }
+  .btn-message:hover{
+    background-color: rgba(170,170,170, 0.2);
+    transition: 0.3s ease-in;
+  }
+h2{
+	color: #ddd;
+	font-weight: bold !important;
+	letter-spacing: 0.05em;
+    text-shadow: -1px 1px 2px #444444;
+}
+::ng-deep .tooltip-red{
+  left: 0px !important;
+  right: 0px !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  font-size: 12px;
+  background-color: #b71c1c;
+  padding: 0px 5px;
+}
